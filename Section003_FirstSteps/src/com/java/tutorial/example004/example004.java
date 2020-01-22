@@ -15,8 +15,15 @@ public class example004 {
         System.out.println("Float minimum value = " + myMinDoubleValue);
         System.out.println("Float maximum value = " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue = 5.25f; //the f is required at the end otherwise an error will be highlighted
-        double myDoubleValue = 5.25; //here d is optional as by default a decimal number is treated as double
+        int myIntValue = 5/3;
+        float myFloatValue = 5f / 3f; //the f is required at the end otherwise an error will be highlighted
+        double myDoubleValue = 5d / 3d; //here d is optional as by default a decimal number is treated as double
+        double myNewDoubleValue = 5.00 / 3.00; //here also the numeric literals are treated as double values
+
+        System.out.println("My int value = " + myIntValue);
+        System.out.println("my float value = " + myFloatValue);
+        System.out.println("my double value = " + myDoubleValue);
+        System.out.println("my new double value = " + myNewDoubleValue);
+
     }
 }
